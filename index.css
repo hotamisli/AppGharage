@@ -13,6 +13,7 @@ html {
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #no1 {
@@ -23,6 +24,9 @@ html {
     position: absolute;
     top: 40px;
     right: 20px;
+    font-family: open sans;
+    font-weight: bold;
+    font-size: 20;
 }
 
 .menu a {
@@ -44,7 +48,7 @@ nav a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    margin-top: 20%;
+    margin-top: 17%;
     text-align: center;
     color: white;
     font-family: Arial;
@@ -52,16 +56,29 @@ nav a:hover {
 }
 
 .main .line {
-    height: 5px;
+    height: 7px;
     width: 40%;
     margin-left: 30%;
     border-radius: 10px;
-    box-shadow: inset 0 6px 6px -3px;
-    color: rgb(226, 115, 24);
+    background-color: rgb(226, 115, 24);
 }
 
 .main-header {
-    font-size: 50pt;
+    font-size: 90pt;
+    font-family: roboto slab;
+    font-weight: bold;
+}
+
+.sub {
+    font-family: roboto slab;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+p {
+    font-family: roboto;
+    font-weight: medium;
+    font-size: 22pt;
 }
 
 #hireusnow {
@@ -80,7 +97,7 @@ nav a:hover {
 }
 
 .btn {
-    border: 2px solid;
+    border: 1px solid;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
