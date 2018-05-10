@@ -21,7 +21,7 @@ html {
 }
 
 #no1 {
-    background-image: linear-gradient(rgba(19, 10, 105, 0.6), rgba(19, 10, 105, 0.6)), url("img/background-image.png");
+    background-image: linear-gradient(rgba(4, 5, 93, 0.7), rgba(4, 5, 93, 0.7)), url("img/background-image.png");
 }
 
 .menu {
