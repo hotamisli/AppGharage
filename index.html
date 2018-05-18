@@ -7,10 +7,12 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    <script src="index.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <script language="JavaScript" type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -20,7 +22,7 @@
                 <nav class="menu">
                     <a href="#about">ABOUT</a>
                     <a href="#contact">CONTACT</a>
-                    <a class="btn" href="#" id="j" onclick="div_show()">JOIN US</a>
+                    <a href="" class="btn" id="joinus">JOIN US</a>
                 </nav>
             </header>
         </div>
@@ -38,27 +40,29 @@
                     <button name="hire developers" id="hiredevs">Hire Developers</button>
                 </div>
             </section>
-            <div class="r-container">
-                <div id="pop-up">
-                    <form action="">
-                        <label for="fullname">Full Name <br>
-                    <input type="text">
-                    </label><br>
-                        <label for="email">Email<br>
-                    <input type="email" placeholder="abcd@">
-                </label><br>
-                        <label for="telephone">Telephone<br>
-                    <input type="tel" placeholder="(_ _ _)(_ _ _ _ _ _ _ _)">
-                </label><br>
-                        <label for="yourself">Briefly Describe Yourself<br>
-                    <textarea name="briefly describe yourself " id="" cols="15" rows="3"></textarea>
-                </label><br>
-                        <button type="submit" name="Joinnow" class="join">JOIN NOW</button>
+            <div id="pop-up">
+                <form action="" id="form">
+                    <label for="fullname">Full Name <br>
+                            <input type="text">
+                        </label><br>
+                    <label for="email">Email<br>
+                            <input type="email" placeholder="abcd@">
+                        </label><br>
+                    <label for="telephone">Telephone<br>
+                            <input type="tel" placeholder="(_ _ _)(_ _ _ _ _ _ _ _)">
+                        </label><br>
+                    <label for="yourself">Briefly Describe Yourself<br>
+                            <textarea name="briefly describe yourself " id="" cols="15" rows="3"></textarea>
+                        </label><br>
+                    <button type="submit" name="Joinnow" class="join">JOIN NOW</button>
+                    <button type="submit" name="cancel" class="cancel">Cancel</button>
 
-                    </form>
-                </div>
+                </form>
             </div>
+
         </div>
+
+
     </div>
 </body>
 

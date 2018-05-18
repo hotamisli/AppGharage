@@ -35,7 +35,7 @@ html {
 
 .menu a {
     color: white;
-    font-size: 20pt;
+    font-size: 20px;
     text-decoration: none;
     margin-left: 25px;
     padding: 10px;
@@ -120,12 +120,6 @@ p {
     width: 130px;
 }
 
-.r-container {
-    position: relative;
-    margin-top: 30%;
-    left: 20px;
-}
-
 .head {
     position: relative;
     top: 15%;
@@ -185,4 +179,8 @@ label {
     color: #ffffff;
     font-size: 22px;
     margin-top: 50px;
+}
+
+#pop-up {
+    display: none;
 }
